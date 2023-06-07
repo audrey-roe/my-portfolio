@@ -18,10 +18,9 @@ In this portfolio, I aim to provide an overview of my professional journey, incl
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
-- Bootstrap (optional)
 
 ## Features
 
