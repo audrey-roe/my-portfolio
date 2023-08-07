@@ -29,14 +29,7 @@
             window.location.href = url;
         }
     });
-    $('.popup-youtube').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-with-zoom',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
+    
     $('.navbar-toggle').on('click', function () {
         $('body').removeClass('menu-is-closed').addClass('menu-is-opened');
     });

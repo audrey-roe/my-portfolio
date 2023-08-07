@@ -13,12 +13,16 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <title>Audrey -  Portfolio Website</title>
+    <title>Audrey - Portfolio Website</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i&amp;display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/chat.css" rel="stylesheet" media="screen">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -59,10 +63,12 @@
             </ul>
             <div class="menu-footer right-boxed">
                 <div class="social-list">
-                    <a href="https://twitter.com/ogonna_ezeh?s=21&t=hrLCaQC2YtlNqOwRMpngxQ" class="icon ion-social-twitter"></a>
+                    <a href="https://twitter.com/ogonna_ezeh?s=21&t=hrLCaQC2YtlNqOwRMpngxQ"
+                        class="icon ion-social-twitter"></a>
                     <a href="https://www.facebook.com/eogonna" class="icon ion-social-facebook"></a>
                     <!-- <a href="#" class="icon ion-social-googleplus"></a> -->
-                    <a href="https://www.linkedin.com/in/ogonna-ezeonyedika-7b8686175" class="icon ion-social-linkedin"></a>
+                    <a href="https://www.linkedin.com/in/ogonna-ezeonyedika-7b8686175"
+                        class="icon ion-social-linkedin"></a>
                     <!-- <a href="#" class="icon ion-social-dribbble-outline"></a> -->
                 </div>
                 <div class="copy"><a href="">Terms and Agreement</a></div>
@@ -97,6 +103,22 @@
                 </div>
             </div>
         </header>
+        <div hidden class="chat">
+            <div class="chat-title">
+                <h1 style="font-size: medium;">Mabi</h1>
+                <h2 >Chatbot Assistant</h2>
+                <figure class="avatar">
+                    <img class="brand-img" alt="" src="images/brand.png">
+                </figure>
+            </div>
+            <div class="messages">
+            <div class="messages-content">Sorry, I am asleep right now. Please try again </div>
+            </div>
+            <div class="message-box">
+            <textarea type="text" class="message-input" placeholder="Type message..."></textarea>
+            <button type="submit" class="message-submit">Send</button>
+            </div>
+        </div>
         <div class="copy-bottom white boxed">© Audrey 2023.</div>
         <div class="social-list social-list-bottom boxed">
             <a href="https://twitter.com/ogonna_ezeh?s=21&t=hrLCaQC2YtlNqOwRMpngxQ" class="icon ion-social-twitter"></a>
@@ -121,7 +143,17 @@
                                                     <p class="subtitle-top">Welcome To<br>Audrey's Portfolio Website</p>
                                                     <h1 class="display-2 text-white"><span
                                                             class="text-primary">Hello</span> I am<br> Audrey.</h1>
-                                                    <!-- <a href="" class="popup-youtube icon ion-ios-play"></a> -->
+                                                    <!-- <div style="display: flex; align-items: center;">
+                                                        <p class="subtitle-top" style="margin: 3rem;">Inquire a few
+                                                            things about Me<br>from my Chatbot</p>
+                                                        <a href="" class="popup-chat"
+                                                            title="Chat about Me with my AI">
+
+                                                            <ion-icon class="text-primary" size="large"
+                                                                name="chatbubble-outline"></ion-icon>
+                                                        </a>
+                                                    </div> -->
+
                                                     <!-- do an interview video in hd and place here -->
                                                 </div>
                                             </div>
@@ -146,7 +178,7 @@
                                                 <div class="col-xl-7">
                                                     <div class="experience-box pb-5">
                                                         <div class="experience-content">
-                                                            <div class="experience-number text-texture">2</div><br
+                                                            <div class="experience-number text-texture">3</div><br
                                                                 class="d-block d-sm-none">
                                                             <div class="experience-info">Years<br>Experience<br>Working
                                                             </div>
@@ -157,10 +189,11 @@
                                                     <h2 class="title-uppercase"> <span class="text-primary">my
                                                             tech</span> stack strength</h2>
                                                     I have extensive experience working with a versatile tech stack
-                                                    including C++, Python, React, HTML, CSS, React Native, and DBSQLite. This
+                                                    including NodeJS, C++, Python, React, Django, React Native, Python,
+                                                    JavaScript, TypeScript. This
                                                     combination allows me to develop robust and efficient applications
                                                     across web and mobile platforms while ensuring seamless integration
-                                                    with databases.
+                                                    with databases such as PostgreSQL, MySQL, MongoDB and DBSQLite.
                                                     <!-- <div class="progress-bars">
                                                         <div class="clearfix">
                                                             <div class="number float-left">Development</div>
@@ -519,7 +552,7 @@
                                         <div class="intro overflow-hidden">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h2 class="title-uppercase"><span class="text-primary">LAGOS</span>,
+                                                    <h2 class="title-uppercase" style="font-size: x-large; font-weight: bold;"><span class="text-primary">LAGOS</span>,
                                                         NIGERIA</h2>
                                                     <!-- <h5 class="text-muted">166 Main Street, Beverly Hills, CA 90210</h5> -->
                                                     <section class="contact-address">
@@ -577,6 +610,7 @@
     </div>
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js" integrity="sha512-Yk47FuYNtuINE1w+t/KT4BQ7JaycTCcrvlSvdK/jry6Kcxqg5vN7/svVWCxZykVzzJHaxXk5T9jnFemZHSYgnw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="js/jquery.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/smoothscroll.js"></script>
@@ -587,6 +621,101 @@
     <script src="js/jquery.pagepiling.min.js"></script>
 
     <script src="js/scripts.js"></script>
+    <!-- <script src="js/chat.js"></script> -->
+    
+    <script>
+        $('.popup-chat').click(function() {
+            
+
+            var $messages = $('.messages-content'),
+                d, h, m,
+                i = 0;
+        
+            function updateScrollbar() {
+                // $messages.mCustomScrollbar("update").mCustomScrollbar('scrollTo', 'bottom', {
+                // scrollInertia: 10,
+                // timeout: 0
+                // });
+                console.log('it is supposed to scroll')
+            }
+        
+            function setDate() {
+                d = new Date()
+                if (m != d.getMinutes()) {
+                m = d.getMinutes();
+                $('<div class="timestamp">' + d.getHours() + ':' + m + '</div>').appendTo($('.message:last'));
+                }
+            }
+        
+            function insertMessage() {
+                msg = $('.message-input').val();
+                if ($.trim(msg) == '') {
+                return false;
+                }
+                $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
+                setDate();
+                $('.message-input').val(null);
+                updateScrollbar();
+                setTimeout(function() {
+                fakeMessage();
+                }, 1000 + (Math.random() * 20) * 100);
+            }
+        
+            $('.message-submit').click(function() {
+                insertMessage();
+            });
+        
+            $(window).on('keydown', function(e) {
+                if (e.which == 13) {
+                insertMessage();
+                return false;
+                }
+            });
+        
+            var Fake = [
+                'Hi there, I\'m Fabio and you?',
+                'Nice to meet you',
+                'How are you?',
+                'Not too bad, thanks',
+                'What do you do?',
+                'That\'s awesome',
+                'Codepen is a nice place to stay',
+                'I think you\'re a nice person',
+                'Why do you think that?',
+                'Can you explain?',
+                'Anyway I\'ve gotta go now',
+                'It was a pleasure chat with you',
+                'Time to make a new codepen',
+                'Bye',
+                ':)'
+            ];
+        
+            function fakeMessage() {
+                if ($('.message-input').val() != '') {
+                return false;
+                }
+                $('<div class="message loading new"><figure class="avatar"><img class="brand-img" alt="" src="images/brand.png"></figure><span></span></div>').appendTo($('.mCSB_container'));
+                updateScrollbar();
+        
+                setTimeout(function() {
+                $('.message.loading').remove();
+                $('<div class="message new"><figure class="avatar"><img class="brand-img" alt="" src="images/brand.png"></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+                setDate();
+                updateScrollbar();
+                i++;
+                }, 1000 + (Math.random() * 20) * 100);
+            }
+            
+            function chathold(){
+                $('.chat').removeAttr('hidden');
+            }
+            // setTimeout(function() {
+            //     fakeMessage();
+            // }, 100);
+            chathold()
+        });
+      </script>
+      
 </body>
 
 <!-- Audrey/  03:30:37 GMT -->
