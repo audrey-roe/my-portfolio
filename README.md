@@ -14,7 +14,7 @@ Welcome to my portfolio repository! This repository showcases my work, skills, a
 
 ## About
 
-In this portfolio, I aim to provide an overview of my professional journey, including my education, work experience, projects, and skills. It is designed to highlight my strengths, expertise, and the value I can bring to potential collaborators, clients, or employers.
+In this portfolio, I provide an overview of my professional journey, including my education, work experience, projects, and skills. It is designed to highlight my strengths, expertise, and the value I can bring to potential collaborators, clients, or employers.
 
 ## Technologies Used
 
